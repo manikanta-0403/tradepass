@@ -1,0 +1,54 @@
+.event-data-main {
+    background: #07153a;
+    color: #797f8f;
+    padding: 3rem;
+}
+
+.event-data-container {
+    display: flex;
+
+    .event-data-container-left {
+        padding: 2rem;
+        flex-basis: 40%;
+        .span-purple-heading {
+            color: #db5a92;
+        }
+        .span-white-heading {
+            color: white;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+    .event-data-container-right {
+        padding: 2rem;
+        flex-basis: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ul {
+            list-style-type: none;
+        }
+    }
+}
+
+.purple-color-text {
+    color: #db5a92;
+    font-weight: 500;
+}
+
+.event-stat-num-color {
+    color: #8ea7e7;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.span-head-1 {
+    color: #db5a92;
+    font-size: 2rem;
+}
+
+.event-stat-head {
+    color: #1186e6;
+    font-size: 1em;
+    font-weight: 700;
+}

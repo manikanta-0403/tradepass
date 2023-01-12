@@ -1,0 +1,37 @@
+<section>
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="wrapper">
+            <img [src]="images[0]" alt="Random first slide">
+          </div>
+          <div class="carousel-caption margin-b-15">
+            <img class="inds-logo-cls" src="assets/images/Logo.png" alt="inds-logo">
+            <p class="p-head--1"> INDONESIA"S MOST INFLUENTIAL </p>
+            <p class="p-head--2"> CYBER SECURITY SUMMIT </p>
+            <div class="time-date">
+                <div><mat-icon>calendar_today</mat-icon> <span>  5-6 OCT 2021</span></div>
+                <div><mat-icon>access_alarms</mat-icon>  <span>  09:00 AM - 03:00 PM (GMT+7)</span></div>
+            </div>
+            <img class="trade-pass-cls" src="assets/images/tradepass-red-logo.png" alt="tradepass-red-logo">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="wrapper">
+            <img [src]="images[1]" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>Second Slide</h3>
+            <p> Second Slide content</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="wrapper">
+            <img [src]="images[2]"  alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>Third Slide</h3>
+            <p>Third Slide content</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+</section>

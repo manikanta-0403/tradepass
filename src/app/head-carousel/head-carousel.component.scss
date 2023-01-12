@@ -1,0 +1,42 @@
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 55%; /* Keep ratio for 900x500 images */
+}
+
+ngb-carousel .wrapper > img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.margin-b-15 {
+    margin-bottom: 10rem;
+}
+
+.p-head--1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.p-head--2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.time-date {
+    display: flex;
+    justify-content: space-evenly;
+    div {
+        font-size: 2rem;
+    }
+}
+
+.trade-pass-cls {
+    padding: 3rem;
+}
+
+.inds-logo-cls {
+    width: 80%;
+}
